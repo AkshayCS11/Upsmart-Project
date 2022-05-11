@@ -1,0 +1,73 @@
+#container{
+    background-color: rgb(212 176 141);
+    margin-left: 258px;
+    margin-right: 243px;
+    padding-top: 46px;
+    padding-bottom: 59px;
+    border-radius: 26px;
+}
+#heading{
+    font-family: 'Roboto', sans-serif;
+}
+
+#mailid{
+    color: rgb(13 12 13);
+    font-size: 27px;
+}
+
+#passlabel{
+    color: rgb(13 12 13);
+    font-size: 27px;
+}
+#email{
+    padding: 10px;
+    padding-right: 86px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+#firstn{
+    
+    color: rgb(13 12 13);
+    font-size: 27px;
+
+}
+#cnfrmpasslabel{
+    
+    color: rgb(13 12 13);
+    font-size: 27px;
+}
+#cnfrmpassword{
+    
+    padding: 10px;
+    padding-right: 90px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-right: 95px;
+
+}
+#firstname{
+    
+    padding: 10px;
+    padding-right: 86px;
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+#password{
+    padding: 10px;
+    padding-right: 86px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#resetbtn{
+    padding: 6px;
+    border-radius: 8px;
+}
+
+
+#submitbtn{
+    padding: 6px;
+    border-radius: 8px;
+    margin-left: 41px;
+}

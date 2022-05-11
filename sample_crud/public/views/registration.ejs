@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title> UPSMART Solutions </title>
+	<link rel="stylesheet" href="registration.css">
+	<style>
+		#mylink{
+			font-size: 25px;
+		}
+	</style>
+</head>
+<body align='center'>
+    <div>
+			
+			<img src="http://www.upsmartsolutions.com/wp-content/uploads/2022/01/1080.png" width="200" height="100" alt="UpSmart Solutions India Pvt. Ltd.," id="logo">
+
+	</div>
+	<h2 id="heading">Register to join UPSMART Solutions</h2>
+
+	<div id='container'>
+		
+	<form action="/registrationInsert" method="POST">
+			<label id="firstn">Full name</label>
+			<input type="text" id="firstname" name="firstname" placeholder="Full Name" required>
+			<br><br>
+			
+			<label id="mailid">Email ID</label>
+			<input type ="email" id = 'email' name="email" placeholder="Username" required>
+			<br><br>
+
+			<label id="passlabel">Password</label>
+			<input type="password" id = "password" name="password" placeholder="Password" required>
+			<br><br>
+
+			
+			<label id="cnfrmpasslabel">Confirm Password</label>
+			<input type="cnfrmpassword" id = "cnfrmpassword" name="cnfrmpassword" placeholder="Confirm Password" required>
+			<br><br>
+
+			<button id="resetbtn" type ="reset">Reset</button>
+			<button id="submitbtn" type ="submit">Register</button>
+		
+		
+        </form>
+	</div>
+        <br>
+
+		<a id="mylink" href="/">Log In</a>
+
+</body>
+</html>
