@@ -1,7 +1,7 @@
 body{
     background-image: url('https://browsecat.net/sites/default/files/login-backgrounds-128292-582781-7693942.png');
  }
-#box{
+#container{
     background-image:url('https://browsecat.net/sites/default/files/login-backgrounds-128292-582669-5455043.png') ;
     background-color: rgb(212 176 141);
     margin-left: 258px;
@@ -14,36 +14,34 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-#mailid{
+#emailId{
     color: rgb(13 12 13);
     font-size: 27px;
 }
 
-#passlabel{
-    color: rgb(13 12 13);
-    font-size: 27px;
-}
+
 #email{
     padding: 10px;
     padding-right: 86px;
     border-radius: 10px;
     background-color: #fff;
 }
+#passwordId{
+    color: rgb(13 12 13);
+    font-size: 27px;
+    margin-left: 120px;
+}
 #password{
     padding: 10px;
-    padding-right: 86px;
+    padding-right: 91px;
     border-radius: 10px;
     background-color: #fff;
 }
 
-#resetbtn{
+
+#deleteButton{
     padding: 6px;
     border-radius: 8px;
 }
 
 
-#submitbtn{
-    padding: 6px;
-    border-radius: 8px;
-    margin-left: 41px;
-}

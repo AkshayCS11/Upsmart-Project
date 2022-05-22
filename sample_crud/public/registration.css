@@ -1,40 +1,72 @@
+body{
+   background-image: url('https://browsecat.net/sites/default/files/login-backgrounds-128292-582781-7693942.png');
+}
 #container{
-    background-color: rgb(212 176 141);
+    background-image:url('https://browsecat.net/sites/default/files/login-backgrounds-128292-582669-5455043.png') ;
     margin-left: 258px;
     margin-right: 243px;
     padding-top: 46px;
     padding-bottom: 59px;
     border-radius: 26px;
+
 }
 #heading{
     font-family: 'Roboto', sans-serif;
+    color: #fff;
 }
 
+
 #mailid{
-    color: rgb(13 12 13);
+    color: #fff;
     font-size: 27px;
+    margin-left: 12px;
 }
 
 #passlabel{
-    color: rgb(13 12 13);
+    color: #fff;
     font-size: 27px;
+    margin-left: 7px;
 }
+#phonenum{
+    color: #fff;
+    font-size: 27px;
+    margin-left: -51px;
+}
+
+#phone{
+    padding: 10px;
+    padding-right: 86px;
+    border-radius: 10px;
+    background-color: #fff;
+    background: transparent;
+    border-color: #fff;
+}
+
 #email{
     padding: 10px;
     padding-right: 86px;
     border-radius: 10px;
     background-color: #fff;
+    background: transparent;
+    border-color: #fff;
 }
 #firstn{
     
-    color: rgb(13 12 13);
+    color: #fff;
+    font-size: 27px;
+
+}
+#lastn{
+    
+    color: #fff;
     font-size: 27px;
 
 }
 #cnfrmpasslabel{
     
-    color: rgb(13 12 13);
+    color: #fff;
     font-size: 27px;
+    margin-left: 7px;
 }
 #cnfrmpassword{
     
@@ -43,6 +75,8 @@
     border-radius: 10px;
     background-color: #fff;
     margin-right: 95px;
+    background: transparent;
+    border-color: #fff;
 
 }
 #firstname{
@@ -51,6 +85,19 @@
     padding-right: 86px;
     border-radius: 10px;
     background-color: #fff;
+    background: transparent;
+    border-color: #fff;
+
+}
+::placeholder{color:#fff}
+#lastname{
+    
+    padding: 10px;
+    padding-right: 86px;
+    border-radius: 10px;
+    background-color: #fff;
+    background: transparent;
+    border-color: #fff;
 
 }
 #password{
@@ -58,11 +105,17 @@
     padding-right: 86px;
     border-radius: 10px;
     background-color: #fff;
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
 }
 
 #resetbtn{
     padding: 6px;
     border-radius: 8px;
+    background: transparent;
+    cursor: pointer;;
+    border-color: #fff;
 }
 
 
@@ -70,4 +123,7 @@
     padding: 6px;
     border-radius: 8px;
     margin-left: 41px;
+    background: transparent;
+    cursor: pointer;
+    border-color: #fff;
 }

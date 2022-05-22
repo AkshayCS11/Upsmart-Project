@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <div id="Navbar">
+       <img id="image" src="https://flyclipart.com/thumbs/online-grocery-shopping-johor-cart-logo-with-grocery-1159444.png"> 
+    
+        <input id="search" type="text" title="Search grocery products" name="q" autocomplete="off" placeholder="Search grocery products" value="">
+        <button id="lens">
+             <svg width="20" height="20" viewBox="0 0 17 18" class="" xmlns="http://www.w3.org/2000/svg"><g fill="#2874F1" fill-rule="evenodd"><path class="_3tn8iT _34RNph" d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203"></path><path class="_3tn8iT _34RNph" d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467"></path></g></svg>
+       </button>
+       <button onclick="openForm()" id="loginbutton">Login</button>
+       
+       <select id="more" >
+        <option value="More">More</option>
+        <option value="Notification Preferences">Notification Preferences</option>
+        <option value="24x7 Customer Support">24x7 Customer Support</option>
+        <option value="Advertise">Advertise</option>
+      </select>
+       
+     </div>
+     <div class="form-popup" id="myForm">
+        <form action="/" class="form-container">
+          <h1>Login</h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit" class="btn">Login</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+    <script src="homepage.js"></script>
+</body>
+</html>
